@@ -1,0 +1,18 @@
+1. mkdir back , front
+2.front => npx create-react-app .
+3.back ==> npm init -y
+     ====> change main to server.js add start='nodemon server.js'
+     ====> npm i -g nodemon
+4.touch server.js    --create file js, you have to installed by:
+                         npm install touch-cli -g
+5.npm i express mongoose dotenv
+6.add needed element to run the server.js
+7.npm start  ---------running the server.
+8. run rhe front 
+---------------- so is the minimum setup to run our Project -----------
+
+--------- add connection to database ---------------------
+9. mkdir config, controllers, routes, middleware, utils 
+10.touch config/db.js
+11. add neede element to connect with db.
+12.
